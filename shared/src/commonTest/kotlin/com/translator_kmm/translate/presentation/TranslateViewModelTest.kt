@@ -9,7 +9,6 @@ import com.litobumba.translator_kmm.core.presentation.UiLanguage
 import com.litobumba.translator_kmm.translate.domain.history.HistoryDataSource
 import com.litobumba.translator_kmm.translate.domain.history.HistoryItem
 import com.litobumba.translator_kmm.translate.domain.translate.Translate
-import com.litobumba.translator_kmm.translate.domain.translate.TranslateClient
 import com.litobumba.translator_kmm.translate.presentation.TranslateEvent
 import com.litobumba.translator_kmm.translate.presentation.TranslateState
 import com.litobumba.translator_kmm.translate.presentation.TranslateViewModel

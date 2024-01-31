@@ -25,11 +25,11 @@ actual data class UiLanguage(
 
     actual companion object {
         actual fun byCode(langCode: String): UiLanguage {
-            return allLanguage.find { it.language.langCode == langCode }
+            return allLanguages.find { it.language.langCode == langCode }
                 ?: throw IllegalArgumentException("Invalid or unsupported language code")
         }
 
-        actual val allLanguage: List<UiLanguage>
+        actual val allLanguages: List<UiLanguage>
             get() = Language.values().map { language ->
                 UiLanguage(
                     language = language,

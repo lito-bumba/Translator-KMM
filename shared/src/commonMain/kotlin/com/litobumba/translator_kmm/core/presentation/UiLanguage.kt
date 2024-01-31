@@ -7,6 +7,6 @@ expect class UiLanguage {
 
     companion object {
         fun byCode(langCode:String): UiLanguage
-        val allLanguage: List<UiLanguage>
+        val allLanguages: List<UiLanguage>
     }
 }

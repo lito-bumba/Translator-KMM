@@ -35,7 +35,7 @@ fun LanguageDropDown(
 ) {
     Box(modifier = modifier) {
         DropdownMenu(expanded = isOpen, onDismissRequest = onDismiss) {
-            UiLanguage.allLanguage.forEach { language ->
+            UiLanguage.allLanguages.forEach { language ->
                 LanguageDropDownItem(
                     language = language,
                     onClick = { onSelectLanguage(language) },

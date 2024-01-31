@@ -3,13 +3,17 @@ import shared
 
 struct ContentView: View {
     
+    let appModule: AppModule
+    
 	var body: some View {
-        Text("Iphone")
-	}
-}
-
-struct ContentView_Previews: PreviewProvider {
-	static var previews: some View {
-		ContentView()
+        ZStack {
+            Color.background
+                .ignoresSafeArea()
+            TranslateScreen(
+                historyDataSource: appModule.historyDataSource,
+                translateUseCase: appModule.translateUseCase,
+                parser: appModule.voiceParser
+            )
+        }
 	}
 }
