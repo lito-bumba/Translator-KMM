@@ -1,6 +1,5 @@
 # Translator App
 Translator App is a Kotlin Multiplatform/Kotlin Mobile Multiplatform project that helps users to translate sentences from one language to another.
-This app was built during Building Industry-Level Multiplatform Apps with KMM course.
 
 ## Screenshot
 <img src="screenshot/image.png" width="800"/>
